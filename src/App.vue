@@ -1,8 +1,13 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
+import IconsList from "./components/IconsList.vue";
+
 export default {
     components: {
-        AppHeader
+        AppHeader,
+        AppMain,
+        IconsList
     },
     data () {
         return {};
@@ -13,6 +18,10 @@ export default {
 
 <template>
     <AppHeader />
+    <AppMain />
+    <IconsList />
+
+
 
 </template>
 

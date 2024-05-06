@@ -4,7 +4,7 @@ export default{
 </script>
 
 <template>
-  <h2> HEADER </h2>
+  <h2> PROVA Iconslist </h2>
 </template>
 
 <style scoped lang="Scss">
