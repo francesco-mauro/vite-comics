@@ -8,5 +8,7 @@ export default{
   <h2> PROVA MAIN </h2>
 </template>
 
-<style scoped lang="Scss">
+<style scoped lang="scss">
+
+
 </style>
