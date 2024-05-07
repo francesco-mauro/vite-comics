@@ -56,7 +56,7 @@ export default{
 
       <!-- menu -->
       <ul>
-        <li v-for="item in menuItems">
+        <li v-for="item in menuItems" :class="{ active : item.active}">
           <a href="">{{ item.title }}</a>
         </li>
       </ul>
@@ -65,4 +65,12 @@ export default{
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/_mixins.scss' as *;
+
+header .container {
+  @include flex(row, space-between, center);
+
+}
+
+
 </style>
