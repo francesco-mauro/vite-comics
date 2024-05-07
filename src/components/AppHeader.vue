@@ -1,7 +1,52 @@
 <script>
 export default{
-
-}
+  data() {
+    return {
+      menuItems: [
+        {
+          title: "Characters",
+          active: false,
+        },
+        {
+          title: "Comics",
+          active: true,
+        },
+        {
+          title: "Movies",
+          active: false,
+        },
+        {
+          title: "Tv",
+          active: false,
+        },
+        {
+          title: "Games",
+          active: false,
+        },
+        {
+          title: "Collectibles",
+          active: false,
+        },
+        {
+          title: "Videos",
+          active: false,
+        },
+        {
+          title: "Fans",
+          active: false,
+        },
+        {
+          title: "News",
+          active: false,
+        },
+        {
+          title: "Shop",
+          active: false,
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <template>
@@ -10,6 +55,11 @@ export default{
       <img src="../assets/img/dc-logo.png" alt="logo dc">
 
       <!-- menu -->
+      <ul>
+        <li v-for="item in menuItems">
+          <a href="">{{ item.title }}</a>
+        </li>
+      </ul>
     </div>
   </header>
 </template>
