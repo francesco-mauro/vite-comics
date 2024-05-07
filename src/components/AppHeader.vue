@@ -5,8 +5,14 @@ export default{
 </script>
 
 <template>
-  <h2> PROVA HEADER </h2>
+  <header>
+    <div class="container">
+      <img src="../assets/img/dc-logo.png" alt="logo dc">
+
+      <!-- menu -->
+    </div>
+  </header>
 </template>
 
-<style scoped lang="Scss">
+<style scoped lang="scss">
 </style>

@@ -18,13 +18,13 @@ export default {
 
 </script>
 
+
+<!-- html -->
 <template>
-    <h1>Ciao</h1>
     <AppHeader />
     <AppMain />
     <IconsList />
     <AppFooter />
-
 
 
 </template>
