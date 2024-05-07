@@ -66,9 +66,35 @@ export default{
 
 <style scoped lang="scss">
 @use '../style/partials/_mixins.scss' as *;
+@use '../style/partials/variables' as *;
 
 header .container {
   @include flex(row, space-between, center);
+
+}
+
+ul {
+  @include flex(row, space-between, center);
+  gap: 1rem;
+  list-style-type: none;
+
+  li{
+
+    &.active {
+      a {
+      text-decoration: none;
+      color: $primary-color
+    }
+
+    }
+    
+    a {
+      text-decoration: none;
+      color: $black
+    }
+
+  }
+
 
 }
 
